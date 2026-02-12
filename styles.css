@@ -197,8 +197,21 @@ footer {
     margin-bottom: 15px;
 }
 
-note {
+
+#option {
+    height: 35px;
+}
+
+/* note {
     display: flex;
+} */
+
+#country {
+    margin-top: 25px;
+}
+
+#warning {
+    margin-top: 25px;
 }
 
 #note {
