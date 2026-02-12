@@ -5,23 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix Clone</title>
     <link rel="stylesheet" href="styles.css"> 
+    <link rel="icon" href="resources/favicon.png" type="image/png">
 </head>
 <body>
-    <p>This is my Netflix clone bozos</p>
+
     <nav>
         
-        <section>
-            <img src="resources/logo.svg" alt="">
+        <section class="header">
+            <img src="resources/logo.svg" alt="logo" id="logo">
 
-            <button>Sign In</button>
+            <button id="nav-button">Sign In</button>
 
         </section>
 
-
-        <section>
+        <section class="hero">
 
             <h1>
-                Unlimited movies, TV shows, and more
+                Unlimited movies, TV<br>shows, and more
             </h1>
 
             <h3>
@@ -30,25 +30,198 @@
 
             <p>Ready to watch? Enter your email to create or restart your membership.</p>
 
+            <section>
+
+                <input type="email" placeholder="Email address" id="email">
+
+                <button id="hero-button">Get Started</button>
+
+            </section>
+
         </section>
 
-        <section>
 
-            <input type="email" placeholder="Email address">
-
-            <button>Get Started</button>
-
-        </section>
 
     </nav>
 
     <main>
+        <h3>Trending Now</h3>
 
+        <section id="trending-now">
+            <div class="title">
+                <img src="resources/title-1.png" alt="trending-1" class="title-img">
+                <span>1</span>
+            </div>
+
+            <div class="title">
+                <img src="resources/title-2.png" alt="trending-1" class="title-img">
+                <span>2</span>
+            </div>
+    
+            <div class="title">
+                <img src="resources/title-3.png" alt="trending-1" class="title-img">
+                <span>3</span>
+            </div>
+      
+            <div class="title">
+                <img src="resources/title-4.png" alt="trending-1" class="title-img">
+                <span>4</span>
+            </div>
+      
+            <div class="title">
+                <img src="resources/title-5.png" alt="trending-1" class="title-img">
+                <span>5</span>
+            </div>
+
+        </section>
+
+        <h3>More Reasons to Join</h3>
+       
+        <article id="more-reasons-to-join">
+
+            <div class="card">
+               <h2>Enjoy on your TV</h2>
+                
+               <p>Watch on Smart TVs, Playstation,<br> Xbox, Chromecast, Apple TV, Blu-<br>ray players, and more.</p>
+
+                <img src="resources/card-1.png" alt="card-1" id="icon">
+            </div>
+
+            <div class="card">
+               <h2>Download your shows<br> to watch offline</h2>
+                
+               <p>Save your favorites easily and<br> always have something to watch</p>
+
+                <img src="resources/card-2.png" alt="card-1" id="icon">
+            </div>
+
+            <div class="card">
+               <h2>Watch everywhere</h2>
+                
+               <p>Stream unlimited movies and TV<br> shows on your phone, tablet,<br> laptop, and TV.</p>
+
+                <img src="resources/card-3.png" alt="card-1" id="icon">
+            </div>
+
+            <div class="card">
+               <h2>Create profiles for kids</h2>
+                
+               <p>Send kids on adventures with their<br> favorite characters in a space made<br> just for them — free with your<br> membership.</p>
+
+                <img src="resources/card-4.png" alt="card-1" id="icon">
+            </div>
+
+        </article>
+
+        <h3>Frequently Asked Questions</h3>
+
+        <section id="faq">
+
+            <details>
+                <summary>What is Netflix?</summary>
+                <p>Netflix is a streaming service that offers a wide variety of award-winning TV<br> shows, movies, anime, documentaries, and more on thousands of internet-<br>connected devices.</p>
+                <p>You can watch as much as you want, whenever you want without a single <br>commercial - all for one low monthly price. There's always something new to<br> discover and new TV shows and movies are added every week!</p>
+            </details>
+
+            <details>
+                <summary>How much does Netflix cost?</summary>
+                <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming<br> device, all for one fixed monthly fee. Plans range from R 59 to R 229/month.</p>
+            </details>
+
+            <details>
+                <summary>Where can I watch?</summary>
+                <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly<br> on the web at netflix.com from your personal computer or on any internet-<br>connected device that offers the Netflix app, including smart TVs,<br> smartphones, tablets, streaming media players and game consoles.</p>
+                <p>You can also download your favorite shows with the iOS or Android app. Use<br> downloads to watch while you're on the go and without an internet connection.<br> Take Netflix with you anywhere.</p>
+            </details>
+
+            <details>
+                <summary>How do I cancel?</summary>
+                <p>Netflix is flexible. You can easily cancel your account online in two clicks.<br> There are no cancellation fees - start or stop your account anytime.</p>
+            </details>
+
+            <details>
+                <summary>What can I watch on Netflix?</summary>
+                <p>Netflix has an extensive library of feature films, documentaries, TV shows,<br> anime, award-winning Netflix originals, and more. Watch as much as you<br> want, anytime you want.</p>
+            </details>
+
+            <details>
+                <summary>Is Netflix good for kids?</summary>
+                <p>The Netflix Kids experience is included in your membership to give parents<br> control while kids enjoy family-friendly TV shows and movies in their own<br> space.</p>
+                <p>Kids profiles come with PIN-protected parental controls that let you restrict<br> the maturity rating of content kids can watch and block specific titles you<br> don't want kids to see.</p>
+            </details>
+
+        </section>
 
     </main>
 
     <footer>
 
+        <h3 id="ready">Ready to watch? Enter your email to create or restart your membership.</h3>
+        
+        <section id="register">
+
+            <input type="email" placeholder="Email address" id="email">
+
+            <button id="register-button">Get Started ></button>
+
+        </section>
+
+        <h3 id="call">Questions? Call 0800 100 046</h3>
+
+        <section id="links">
+
+            <ul>
+
+                <li></a>FAQ</li>
+                <li>Investor Relations</li>
+                <li>Ways to Watch</li>
+                <li>Corporate Information</li>
+                <li>Only on Netflix</li>
+
+            </ul>
+
+            <ul>
+
+                <li>Help Center</li>
+                <li>Jobs</li>
+                <li>Terms of Use</li>
+                <li>Contact Us</li>
+
+            </ul>
+
+            <ul>
+
+                <li>Account</li>
+                <li>Redeem Gift Cards</li>
+                <li>Privacy</li>
+                <li>Speed Test</li>
+                
+            </ul>
+
+             <ul>
+
+                <li>Media Center</li>
+                <li>Buy Gift Cards</li>
+                <li>Cookie Preference</li>
+                <li>Legal Notices</li>
+
+            </ul>
+
+        </section>
+
+        <select>
+            <option>English</option>
+            <option>Ndebele</option>
+
+            <h3>Netflix South Africa</h3>
+        
+        </select>
+
+        <note>
+            <h5>This page is protected by Google reCAPTCHA to ensure you're not a bot.</h5>
+        
+            <h5 id="note">Learn more</h5>
+        </note>
 
     </footer>
 
