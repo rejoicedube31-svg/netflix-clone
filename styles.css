@@ -72,7 +72,10 @@ button {
 
 #email {
     padding: 11px 15px;
+    margin-top: 25px;
     width: 300px;
+    background: none;
+    border-color: white;
 }
 
 /* main */
@@ -163,10 +166,13 @@ footer {
     justify-content: center;
     align-items: center;
     padding-top: 16px;
+    gap: 6px;
 }
 
 #register-button {
     padding: 11px 15px;
+    margin-top: 25px;
+    height: 43px;
 }
 
 #call {
