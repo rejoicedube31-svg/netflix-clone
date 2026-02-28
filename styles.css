@@ -78,6 +78,26 @@ button {
     border-color: white;
 }
 
+
+.tv-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    opacity: 0.5;
+    width: 50%;
+    margin-top: 100px;
+}
+
+.tv-container video {
+    position: relative;
+    right: 570px;
+    bottom: 5px;
+    height: 90%;
+    
+}
+
 /* main */
 
 .title {
@@ -182,6 +202,7 @@ footer {
 
 #links {
     display: flex;
+     margin-right: 16px;
    
 }
 
@@ -190,7 +211,7 @@ footer {
     justify-content: space-between;
     list-style: none;
     text-decoration: underline;
-    margin-left: 16px;
+   
 }
 
 #links ul li {
